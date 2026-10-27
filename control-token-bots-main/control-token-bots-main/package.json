@@ -1,0 +1,25 @@
+{
+  "name": "control-tokens-tool-by-7amo",
+  "version": "2.0.0",
+  "description": "Control Tokens Tool by 7am.o — إدارة عدة Discord Bot Tokens رسمية من بانل ديسكورد واحد. اتصال Voice مستقل لكل بوت + Auto Restart + لوجات ملونة.",
+  "main": "src/index.js",
+  "private": true,
+  "author": "7am.o",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/commands/deploy.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "libsodium-wrappers": "^0.8.4"
+  }
+}
